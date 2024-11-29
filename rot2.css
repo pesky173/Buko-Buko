@@ -1,0 +1,252 @@
+*{
+text-decoration: none;
+}
+body {
+ background-image: url("");
+ background-color: white;
+ background-repeat: no-repeat;
+ background-size: 100%, 100%;
+}
+.navbar{
+background: green;
+ font-family: Verdana;
+ padding-right: 19px;
+ padding-left: 30px;
+ padding:5px;
+ 
+}
+.navdiv{
+display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+.baho {
+background: white;
+font-family: calibri;
+padding-left: 17%;
+}
+.baday{
+padding-top: 30px;
+font-size: 30px;
+color: yellowgreen; 
+font-family:Cooper black; 
+display: inline-block;
+text-align: center;
+}
+.divide{
+display: flex; 
+align-items: center; 
+justify-content: space-between;
+}
+.logo a{
+font-size: 30px; 
+font-weight: 600; 
+color: white;
+padding-left: 10px;
+}
+li{
+list-style: none; 
+display: inline-block;
+}
+li a{
+color: white;
+font-size: 18px; 
+margin-right: 25px;
+padding:10px;
+border-radius: 10px;
+
+}
+li a:hover{
+color: green; 
+font-size: 18px; 
+font-weight: bold; 
+margin-right: 25px; 
+border-radius: 10px; 
+background-color:white; 
+padding: 8px;
+transition-duration: .6s;
+}
+button{
+background-color: green; 
+margin-left: 10px; 
+border-radius: 10px; 
+padding: 10px;
+width: 90px;
+border:none;
+}
+button:hover{
+ background-color: lightgreen; 
+ margin-left: 10px;
+ border-radius: 10px; 
+ padding: 10px; 
+ width: 90px;
+}
+button a{
+color: white; 
+font-weight:;
+font-size: 18px;
+
+}
+.par {
+padding-top: 100px; 
+padding-left: 60px;
+font-size: 50px; 
+color: lightblack; 
+font-family: Cooper black;
+	
+}
+.but{
+	background-color: green; 
+	margin-left: 20px; 
+	border-radius: 20px; 
+	padding: 10px; 
+	width: 120px;
+	border:none;
+}
+.but:hover{
+ background-color: lightgreen; 
+ margin-left: 20px; 
+ border-radius: 20px; 
+ padding: 10px; 
+ width: 120px;
+}
+.bukow{
+	float:right;
+	padding-right: 200px;
+    border-radius:10%;
+	padding-top:100px;
+}
+.par1 {
+padding-top: 250px; 
+padding-left: 60px;
+font-size: 30px; 
+color: lightblack; 
+font-family: Cooper black;
+	
+}
+.but1{
+	background-color: green; 
+	margin-left: 10px; 
+	border-radius: 20px; 
+	padding: 10px; 
+	width: 120px;
+	border:none;
+}
+.but1:hover{
+ background-color: lightgreen; 
+ margin-left: 10px; 
+ border-radius: 20px; 
+ padding: 10px; 
+ width: 120px;
+}
+.bukow1{
+	float:right;
+	padding-right: 200px;
+	padding-top:198px;
+	width: 280px;
+}
+.but2{
+	background-color: green; 
+	margin-left: 90%; 
+	border-radius: 20px; 
+	padding: 20px; 
+	width: 110px;
+	border:none;
+	position: fixed;
+    bottom: 0;
+    width: 110px;
+	margin-bottom:20px;
+}
+.but2:hover{
+	background-color: lightgreen; 
+	margin-left: 90%; 
+	border-radius: 20px; 
+	padding: 20px; 
+	width: 110px;
+	border:none;
+	position: fixed;
+    bottom: 0;
+    width: 110px;
+	margin-bottom:20px;
+}
+footer{
+        background-color: green;
+        padding-top: 30px;
+    }
+    .container{
+        width: 1100px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .footer-content{
+        width: 33.3%;
+    }
+    h3{
+        font-size: 28px;
+        margin-bottom: 15px;
+        text-align: center;
+		color:white;
+    }
+    .footer-content p{
+        width:190px;
+        margin: auto;
+        padding: 7px;
+		color: white;
+		padding-left:70px;
+    }
+    .footer-content ul{
+       padding-left:30px;
+	   text-align: center;
+    }
+    .list{
+        padding: 0;
+    }
+    .list li{
+        width: auto;
+        text-align: center;
+        list-style-type:none;
+        padding: 7px;
+        position: relative;
+    }
+    .list li::before{
+        content: '';
+        position: absolute;
+        transform: translate(-50%,-50%);
+        left: 39%;
+        top: 100%;
+        width: 0;
+        height: 2px;
+        background: #f18930;
+        transition-duration: .5s;
+    }
+    .list li:hover::before{
+        width: 70px;
+    }
+   
+    .bottom-bar{
+        background: #f18930;
+        text-align: center;
+        padding: 10px 0;
+        margin-top: 50px;
+    }
+    .bottom-bar p{
+        color: white;
+        margin: 0;
+        font-size: 16px;
+        padding: 7px;
+    }
+	
+	
+    
+	
+	::-webkit-Scrollbar{
+	 width: 15px;
+	}
+	::-webkit-scrollbar-track{
+		background: white;
+	}
+	::-webkit-scrollbar-thumb{
+		background: green;
+		border-radius: 10px;
+	}

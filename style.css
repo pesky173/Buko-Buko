@@ -1,0 +1,180 @@
+*{
+text-decoration: none;
+}
+
+.navbar{
+background: green;
+ font-family: Verdana;
+ padding-right: 19px;
+ padding-left: 30px;
+ padding:5px;
+ 
+}
+.navdiv{
+display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+
+.baho {
+background: white;
+font-family: calibri;
+padding-left: 17%;
+}
+
+.baday{
+padding-top: 30px;
+font-size: 30px;
+color: yellowgreen; 
+font-family:Cooper black; 
+display: inline-block;
+text-align: center;
+}
+
+.divide{
+display: flex; 
+align-items: center; 
+justify-content: space-between;
+}
+
+.logo a{
+font-size: 30px; 
+font-weight: 600; 
+color: white;
+padding-left: 10px;
+}
+
+li{
+list-style: none; 
+display: inline-block;
+}
+
+li a{
+color: white;
+font-size: 18px; 
+margin-right: 25px;
+padding:10px;
+border-radius: 10px;
+}
+
+li a:hover{
+color: green; 
+font-size: 18px; 
+font-weight: bold; 
+margin-right: 25px; 
+border-radius: 10px; 
+background-color:white; 
+padding: 8px;
+transition-duration: .6s;
+}
+
+button{
+background-color: green; 
+margin-left: 10px; 
+border-radius: 10px; 
+padding: 10px;
+width: 90px;
+border:none;
+}
+
+button:hover{
+ background-color: lightgreen; 
+ margin-left: 10px;
+ border-radius: 10px; 
+ padding: 10px; 
+ width: 90px;
+}
+
+button a{
+color: white; 
+font-weight:;
+font-size: 18px;
+}
+
+.par {
+padding-top: 100px; 
+padding-left: 60px;
+font-size: 50px; 
+color: lightblack; 
+font-family: Cooper black;
+	
+}
+.but{
+background-color: green; 
+margin-left: 20px; 
+border-radius: 20px; 
+padding: 10px; 
+width: 120px;
+border:none;
+}
+
+#context1{
+text-align: left;
+color:green;
+}
+
+#BUKO-BUKO{
+text-align: center;
+font-size: 40px;
+color: green;	
+}
+
+#pikpik{
+text-align: right;
+margin-right: 400px;
+}
+
+#bukopic{
+position: absolute;
+}
+
+#BUKO-BUKO2{
+font-size: 40px;
+color: green;	
+}
+
+#context2{
+color: green;
+}
+
+.dve {
+display: flex;
+margin-left: 5%;
+margin-top: 5%;
+}
+
+.dve1 {
+width: 400px;
+height: 500px;
+}
+
+#devp {
+color: green;
+font-size: 20px;
+font-weight: 700;
+text-align: center;
+font-family: Verdana;
+}
+
+.kaka {
+    border-radius: 20px;
+    width: 330px;
+    height: 360px;
+    margin-left: 50px;
+    margin-top: 5%;
+}
+
+#but{
+font-family: verdana;
+font-size: 18px;
+background-color:green;
+color: white;
+padding: 15px 15px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+}
+
+#but:hover{
+background-color: lime;
+}

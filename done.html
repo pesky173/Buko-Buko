@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Status</title>
+    <style>
+        /* General styles for the body */
+        body {
+            font-family: 'Arial', sans-serif;
+            background: #4caf50; /* Green background */
+            color: white; /* White text color */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+
+        /* Container for the message */
+        .message-container {
+            background-color: rgba(255, 255, 255, 0.1); /* Light white background for the container */
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            max-width: 400px;
+            width: 100%;
+        }
+
+        /* Main message styling */
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: white; /* White color for the heading */
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        /* Sub-message styling */
+        p {
+            font-size: 1.2em;
+            margin-top: 10px;
+            color: white; /* White color for the paragraph */
+            animation: fadeIn 2s ease-in-out 1s;
+        }
+
+        /* Simple fade-in animation */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Link styling */
+        .order-again-link {
+            display: inline-block;
+            background-color: #ffffff; /* White background for the link */
+            color: #4caf50; /* Green text color for the link */
+            padding: 15px 30px;
+            font-size: 1.2em;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 20px;
+            transition: all 0.3s ease;
+        }
+
+        /* Link hover effect */
+        .order-again-link:hover {
+            background-color: #4caf50; /* Green background when hovered */
+            color: white; /* White text when hovered */
+            border-color: #388e3c; /* Darker green border on hover */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="message-container">
+        <h1>Your order is done</h1>
+        <p>Please wait...</p>
+        <a href="menu.html" class="order-again-link" onclick="orderAgain()">Click here to order again</a>
+    </div>
+
+    <script>
+        // JavaScript function for the "order again" link
+        function orderAgain() {
+            alert("Thank you for ordering again!");
+            // Here, you can add additional logic to redirect or reset the page.
+        }
+    </script>
+
+</body>
+</html>
